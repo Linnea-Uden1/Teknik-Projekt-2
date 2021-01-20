@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0eeaec36ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <header>
+        <div id="output"></div>    
+    </header>
+   
+    <nav>
+        <div id="scramble" class="container-2">
+            <button id="gen" type="button" class="btn btn-success">Generate Scramble</button>
+        <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn" class="btn btn-primary">4x4x4</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="2x2x2.html">2x2x2</a>
+            <a href="index.html">3x3x3</a>
+            <a href="#home">4x4x4</a>
+            <a href="5x5x5.html">5x5x5</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <h2>Enter your time here</h2>
+        <form>
+            <input type="text" class="todo-input">
+            <button class="todo-button" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>
+        </form>
+            <div class="todo-container">
+                <ul class="todo-list"></ul>
+            </div>            
+        
+   
+    <script src="/js/common.js"></script>
+    <script src="js/4-5.js"></script>
+</body>
+</html>
